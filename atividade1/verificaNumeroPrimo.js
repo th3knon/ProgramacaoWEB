@@ -35,9 +35,9 @@ rl.question("Digite um número inteiro positivo: ", userInput => {
   } else {
     const isNumberPrime = isPrime(number);
     if (isNumberPrime) {
-      console.log(`${number} é um número primo.`);
+      console.log("1");
     } else {
-      console.log(`${number} não é um número primo.`);
+      console.log("0");
     }
   }
 
